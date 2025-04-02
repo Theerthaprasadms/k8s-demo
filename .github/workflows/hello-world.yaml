@@ -4,10 +4,10 @@ on:
     branches:
       - main
 jobs:
-  first-hello-world-job: 
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout code
-    uses: actions/checkout@v3
-    -name: Print message
-    run: echo "Helloworld GA testing"
+  first-hello-world-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: Print message
+        run: echo "Hello world GA testing"
